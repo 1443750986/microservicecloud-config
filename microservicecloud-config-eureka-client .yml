@@ -20,7 +20,7 @@ eureka:
     service-url:
       #单机  #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       
       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
-      defaultZone: http://username : password @eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
     port: 7001
@@ -39,5 +39,5 @@ eureka:
     service-url:
       #单机  #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       
       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
-      defaultZone: http://username : password @eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
 #请保存为UTF-8格式                                        
